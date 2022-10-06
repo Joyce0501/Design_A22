@@ -1,6 +1,6 @@
 header{
     padding: 24px;
-    background-color: white;
+    background-color: var(--color-white);
 
     ul{
         list-style: none;
@@ -19,11 +19,11 @@ header{
             align-items: center;
             width: 145px;
             height: 30px;
-            color: rgb(0,0,0,100%);
+            color: var(--color-textbouton);
         }
     }
     .header_nav{
-        color: rgb(32,32,32,100%);
+        color: var(--color-nav);
         font-size: 16px;
         font-weight: bold;
     }
@@ -31,7 +31,7 @@ header{
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(137,136,136,100%);
+        background-color: var(--color-bouton);
         padding: 25px;
     }
 }
