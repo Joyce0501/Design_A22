@@ -1,5 +1,4 @@
 .micro{
-
     .wrapper{
         display: flex;
     }
@@ -18,36 +17,56 @@
     ul{
         display: inline;
         list-style: none;
-        justify-content: space-between;
-        gap: 80px;
+        /*justify-content: space-between;*/
+        /*gap: 80px;*/
+        color: var(--color-textbouton);
     }
 
     .cote{
         display: flex;
-        gap: 40px;
+        padding-left: 0px;
         ul{
             display: inline;
             list-style: none;
         }
     }
-    //span{
-    //    display: inline-flex;
-    //    padding: 25px;
-    //    align-items: center;
-    //    background-color: orange;
-    //    border-radius: 100%;
-    //}
-    //
-    //.button_play{
-    //    font-weight: bold;
-    //    text-decoration: underline;
-    //    align-items: center;
-    //    display: flex;
-    //}
-    //
-    //.buttons{
-    //    display: flex;
-    //    gap: 55px;
-    //}
+    .representations{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 0;
+        /*ul{
+            display: list-item;
+        }*/
+        .representation1{
+            display: block;
+            background-color: var(--color-orange);
+            height: 20px;
+            width: 250px;
+        }
+        .representation2{
+            display: block;
+            background-color: var(--color-bouton);
+            height: 20px;
+            width: 250px;
+        }
+    }
+    .buttons{
+        display: flex;
+        margin-top: 70px;
+        justify-content: space-between;
+    }
+    .button{
+        display: inline-flex;
+        background-color: var(--color-bouton);
+        padding: 25px;
+        color: var(--color-textbouton);
+    }
+    .buttoncontribution{
+        background-color: var(--color-orange);
+        margin-top: 30px;
+        a{
+          padding: 160px;
+        }
+    }
 
 }
