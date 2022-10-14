@@ -1,0 +1,18 @@
+.barre{
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--color-orange);
+    }
+    ul{
+        padding-left: 10px;
+        list-style: none;
+        display: flex;
+        gap: 45px;
+        color: var(--color-nav);
+        font-weight: bold;
+
+    }
+
+}

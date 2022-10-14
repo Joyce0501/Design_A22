@@ -1,0 +1,34 @@
+.Details{
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+
+        .card_icon{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .cote{
+        display: flex;
+        gap: 70px;
+        ul{
+            display: inline;
+            list-style: none;
+            padding-left: 50px;
+           justify-content: center;
+        }
+    }
+    .contreparties{
+       .card3, .card4{
+           background-color: var(--color-bouton);
+       }
+    }
+
+    .description{
+        .card1, .card2 {
+            background-color: var(--color-bouton);
+        }
+    }
+}
