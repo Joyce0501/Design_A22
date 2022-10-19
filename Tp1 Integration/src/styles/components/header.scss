@@ -1,10 +1,7 @@
 header{
-    padding: 24px;
     background-color: var(--color-white);
-
     ul{
         list-style: none;
-        display: flex;
         gap: 45px;
     }
 
@@ -18,8 +15,6 @@ header{
         ul{
             display: flex;
             align-items: center;
-            width: 145px;
-            height: 30px;
             color: var(--color-textbouton);
         }
     }
@@ -28,6 +23,14 @@ header{
         align-items: start;
         font-size: 16px;
         font-weight: bold;
+        padding-left: 0;
+     //   display: flex;
+        ul{
+            display: flex;
+        }
+        li{
+            margin: auto;
+        }
     }
     .button{
         display: inline-flex;

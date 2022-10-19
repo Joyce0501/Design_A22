@@ -1,13 +1,13 @@
 .Details{
+    background-color: white;
+    ul{
+        list-style: none;
+    }
     .cards{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
 
-        .card_icon{
-            padding-left: 10px;
-            padding-right: 10px;
-        }
     }
 
     .cote{
@@ -22,13 +22,48 @@
     }
     .contreparties{
        .card3, .card4{
-           background-color: var(--color-bouton);
+           background-color: var(--color-grisBackground);
        }
+
+        .nombre{
+            font-size: 12px;
+            padding-top: 10px;
+        }
+
+        h6{
+            padding-left: 150px;
+            font-size: 16px;
+            color: #000000;
+        }
+        h16{
+            color: #000000;
+        }
+
     }
 
     .description{
         .card1, .card2 {
-            background-color: var(--color-bouton);
+            background-color: var(--color-grisBackground);
+        }
+
+        h6{
+            font-size: 16px;
+            width: 435px;
+            height: 24px;
+            color: #000000;
+        }
+        .petitedescription{
+            font-size: 12px;
+            padding-left: 100px;
+            padding-top: 10px;
+        }
+        .titredescription{
+            padding-top: 10px;
+            padding-left: 190px;
+            font-weight: bold;
+        }
+        p{
+            color: #000000;
         }
     }
 }

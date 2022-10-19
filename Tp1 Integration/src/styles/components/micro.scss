@@ -1,13 +1,23 @@
 .micro{
+    background-color: white;
     .wrapper{
         display: flex;
+        padding-top: 40px;
+        background-color: var(--color-grisBackground);
     }
     .micro_media{
         width: 50%;
+        h6,h10{
+            padding-left: 150px;
+        }
+        h6{
+           padding-bottom: 30px;
+        }
     }
     .micro_content{
         width: 50%;
-        margin: 20px;
+        margin-left: 60px;
+        padding-top: 15px;
     }
 
     h10,h6{
@@ -53,7 +63,7 @@
     }
     .buttons{
         display: flex;
-        margin-top: 70px;
+        margin-top: 40px;
         justify-content: space-between;
     }
     .button{
