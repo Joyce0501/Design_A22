@@ -1,0 +1,47 @@
+.footer{
+
+    background-color: rgb(35,35,94,100%);
+
+    .rangees{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .rangee2 li{
+        display: list-item;
+        list-style: none;
+        color: white;
+    }
+
+    .rangee3 li{
+        display: list-item;
+        list-style: none;
+        color: white;
+    }
+
+    .rangee4 li{
+        display: list-item;
+        list-style: none;
+        color: white;
+    }
+
+    .fin {
+        display: flex;
+        li{
+            display: inline;
+            list-style: none;
+        }
+    }
+    .motdefin{
+        display: flex;
+        ul{
+            gap: 30px;
+        }
+    }
+    h4{
+        margin-bottom: 40px;
+    }
+}

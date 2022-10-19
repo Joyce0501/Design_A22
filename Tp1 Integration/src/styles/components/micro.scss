@@ -11,13 +11,20 @@
             padding-left: 150px;
         }
         h6{
-           padding-bottom: 30px;
+         padding-bottom: 10px;
+        }
+        img{
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 450px;
+            padding-top: 0px;
         }
     }
     .micro_content{
         width: 50%;
         margin-left: 60px;
-        padding-top: 15px;
+        margin-right: 20px;
+        padding-bottom: 30px;
     }
 
     h10,h6{
@@ -27,8 +34,6 @@
     ul{
         display: inline;
         list-style: none;
-        /*justify-content: space-between;*/
-        /*gap: 80px;*/
         color: var(--color-textbouton);
     }
 

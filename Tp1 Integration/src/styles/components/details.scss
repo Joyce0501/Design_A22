@@ -23,27 +23,45 @@
     .contreparties{
        .card3, .card4{
            background-color: var(--color-grisBackground);
+          margin-top: 15px;
        }
 
         .nombre{
             font-size: 12px;
-            padding-top: 10px;
+            margin-top: 15px;
         }
 
         h6{
             padding-left: 150px;
             font-size: 16px;
             color: #000000;
+            padding-top: 15px;
         }
         h16{
             color: #000000;
         }
-
+        .card_image{
+            img{
+                width: 450px;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 15px;
+            }
+        }
     }
 
     .description{
         .card1, .card2 {
             background-color: var(--color-grisBackground);
+        }
+        p{
+            padding-left: 20px;
+        }
+        img{
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 450px;
+            padding-top: 20px;
         }
 
         h6{
@@ -51,6 +69,7 @@
             width: 435px;
             height: 24px;
             color: #000000;
+            margin-top: 20px;
         }
         .petitedescription{
             font-size: 12px;
@@ -58,7 +77,7 @@
             padding-top: 10px;
         }
         .titredescription{
-            padding-top: 10px;
+            padding-top: 20px;
             padding-left: 190px;
             font-weight: bold;
         }
