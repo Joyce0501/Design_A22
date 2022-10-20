@@ -25,7 +25,10 @@
            background-color: var(--color-grisBackground);
           margin-top: 15px;
        }
-
+        .petitebarre{
+            background-color: var(--color-orange);
+            color: var(--color-orange);
+        }
         .nombre{
             font-size: 12px;
             margin-top: 15px;
@@ -54,6 +57,10 @@
         .card1, .card2 {
             background-color: var(--color-grisBackground);
         }
+            .petitebarre{
+                background-color: var(--color-orange);
+                color: var(--color-orange);
+            }
         p{
             padding-left: 20px;
         }

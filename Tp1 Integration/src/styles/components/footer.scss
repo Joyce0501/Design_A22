@@ -1,31 +1,38 @@
 .footer{
-
-    background-color: rgb(35,35,94,100%);
-
+    background-color: var(--color-grisBackground);
     .rangees{
+        display: flex;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
+        grid-template-columns: repeat(4, 1fr);
         justify-content: space-between;
-        color: white;
-    }
 
+        strong{
+            color: var(--color-grasFooter);
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+    }
     .rangee2 li{
         display: list-item;
         list-style: none;
-        color: white;
+        color: var(--color-grisFooter);
     }
 
     .rangee3 li{
         display: list-item;
         list-style: none;
-        color: white;
+        color: var(--color-grisFooter);
     }
 
     .rangee4 li{
         display: list-item;
         list-style: none;
-        color: white;
+        color: var(--color-grisFooter);
+    }
+    .rangee5 li{
+        display: inline;
+        list-style: none;
+        color: var(--color-grisFooter);
     }
 
     .fin {
@@ -33,15 +40,12 @@
         li{
             display: inline;
             list-style: none;
+            color: var(--color-grisFooter);
         }
-    }
-    .motdefin{
-        display: flex;
-        ul{
-            gap: 30px;
+        .motdefin{
+            display: flex;
+            gap:50px;
+            justify-content: space-between;
         }
-    }
-    h4{
-        margin-bottom: 40px;
     }
 }
