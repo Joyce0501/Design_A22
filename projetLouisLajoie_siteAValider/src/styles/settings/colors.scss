@@ -1,0 +1,24 @@
+/* ==========================================================================
+   COLORS / SETTINGS
+   ========================================================================== */
+
+:root {
+    // Couleur de base
+    --color-white: #fff;
+    --color-black: #000000;
+    --color-hover:#E53847;
+
+    // Couleurs du projet
+    --color-primary: #fff;
+    /*--color-primary-darker: #285943;*/
+    --color-secondary: #F0F0F0;
+    --color-tertiary: #202C4A;
+
+    /*--color-neutral-light: #eeeeee;
+    --color-neutral-dark: #888888;
+
+    --color-fail: #f6511d;*/
+
+    /*Dégradé ne fonctionne pas*/
+    --color-degrade-bouton:linear-gradient(180deg, #62BDFC 0%, #8490FF 100%);
+}

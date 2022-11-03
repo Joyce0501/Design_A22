@@ -1,0 +1,24 @@
+/* ==========================================================================
+   LINKS / ELEMENTS
+   Style de base de tous les liens et bouton du site
+   ========================================================================== */
+
+a {
+    color: var(--color-black);
+    text-decoration: none;
+    font-size:var(--font-size-button);
+
+    &:hover {
+        color: var(--color-hover);
+        text-decoration: underline;
+    }
+}
+
+.bouton-hero{
+    background: linear-gradient(180deg, #62BDFC 0%, #8490FF 100%);
+}
+
+.bouton-hero a{
+    color:var(--color-white);
+    text-transform: uppercase;
+}

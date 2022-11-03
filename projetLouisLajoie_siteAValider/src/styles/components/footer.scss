@@ -1,0 +1,29 @@
+.pieddepage{
+    padding:var(--spacing-lg) 0;
+
+    margin:50px;
+
+    background-color:var(--color-tertiary);
+
+    color:var(--color-white);
+
+    p{
+        margin:0;
+    }
+
+    li{
+        list-style-type: none;
+        /*padding:0 10px;*/
+    }
+
+    ul{
+        display:flex
+        gap:10px;
+    }
+
+    .wrapper{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+}

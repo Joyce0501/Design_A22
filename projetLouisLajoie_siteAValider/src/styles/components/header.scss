@@ -1,0 +1,62 @@
+.entete{
+
+    padding:var(--spacing-lg) 0;
+
+    .logo{
+        font-family:  var(--font-primary);
+        font-size:4rem;
+        font-weight:700;
+        color:black;
+        text-transform: uppercase;
+
+        display:flex;
+        gap:20px;
+
+        text-decoration: none;
+    }
+
+    nav ul{
+        display:flex;
+        gap:20px;
+
+        list-style-type: none;
+    }
+
+    .wrapper{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.header__toggle{
+    span{
+        width:20px;
+        height:2px;
+        background-color: black;
+        display:block;
+    }
+
+    /*display:grid;*/
+    display:none;
+    gap:5px;
+}
+
+@media screen and (max-width: $breakpoint-sm) {
+
+    header nav{
+        display:none;
+    }
+
+    .header__toggle{
+        display: grid;
+        /*ligne ci-dessous pas nécessaire*/
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/*@media screen and (max-width: $breakpoint-sm) {
+
+
+}*/
