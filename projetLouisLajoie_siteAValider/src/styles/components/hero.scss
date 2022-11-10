@@ -1,12 +1,12 @@
 .hero{
     padding-top:var(--spacing-lg);
-
+    background-color: var(--color-secondary);
 
 
     .wrapper{
         display:flex;
         justify-content: space-between;
-        background-color: var(--color-secondary);
+       // background-color: var(--color-secondary);
     }
 
     .hero-content{
@@ -16,6 +16,7 @@
         align-items:center;
         text-align: center;
     }
+
 
     .hero-media{
         display:flex;
