@@ -34,8 +34,12 @@
     }
 
     .bouton-hero{
-        width:50%;
-        padding:20px 30px;
+        width:258px;
+        height: 44px;
+        display: flex;
+        a{
+            margin: auto;
+        }
     }
 }
 
