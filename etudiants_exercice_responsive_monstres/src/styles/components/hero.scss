@@ -1,0 +1,36 @@
+.hero{
+    padding:100px 0;
+
+    .wrapper{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:50px;
+    }
+
+    .hero-content{
+        max-width:100%;
+
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    @media screen and (max-width: $breakpoint-sm){
+        .wrapper{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+
+    .bouton-hero{
+        max-width:60%;
+    }
+
+    /*.hero-media{
+        max-width:60%;
+    }*/
+}
+
+/*Media query*/
+
