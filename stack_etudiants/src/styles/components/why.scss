@@ -1,0 +1,34 @@
+.why{
+    background-color: rgb(132,132,219,22%);
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        justify-content: space-between;
+    }
+
+    span{
+        display: inline-flex;
+        padding: 25px;
+        align-items: center;
+        background-image: linear-gradient(rgb(55,39,197),rgb(124,53,217));
+        border-radius: 100%;
+    }
+
+    .card{
+        align-items: center;
+        background-color: rgb(255,255,255,100%);
+        text-align: center;
+        padding: 70px;
+    }
+
+    .wrapper{
+        padding: 80px;
+        h2{
+            text-align: center;
+            padding: 50px;
+        }
+    }
+
+}

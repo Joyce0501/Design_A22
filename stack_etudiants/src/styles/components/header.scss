@@ -1,0 +1,38 @@
+header{
+    padding: 24px;
+    font-size: var(--font-size-h4);
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 45px;
+    }
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_nav{
+        font-weight: 500;
+        color: var(--Color-typo-tresPale);
+    }
+
+    .header_options{
+        font-weight: bold;
+        color: var(--color-neutre-foncee);
+
+        ul{
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .header_nav a:hover{
+        color: var(--color-neutre-foncee);
+        font-weight: bold;
+    }
+
+
+}

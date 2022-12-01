@@ -1,0 +1,35 @@
+.hero{
+
+    .wrapper{
+        display: flex;
+    }
+
+    .hero_content{
+        width: 60%;
+    }
+
+    .hero_media{
+        width: 40%;
+    }
+
+    span{
+        display: inline-flex;
+        padding: 25px;
+        align-items: center;
+        background-color: orange;
+        border-radius: 100%;
+    }
+
+    .button_play{
+        font-weight: bold;
+        text-decoration: underline;
+        align-items: center;
+        display: flex;
+    }
+
+    .buttons{
+        display: flex;
+        gap: 55px;
+    }
+
+}
