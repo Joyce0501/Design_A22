@@ -1,87 +1,55 @@
 .micro{
-    background-color: white;
-    .wrapper{
-        display: flex;
-        padding-top: 40px;
-        background-color: var(--color-grisBackground);
-    }
-    .micro_media{
-        width: 50%;
-        h6,h10{
-            padding-left: 150px;
-        }
-        h6{
-         padding-bottom: 10px;
-        }
-        img{
-            margin-left: 20px;
-            margin-right: 20px;
-            width: 450px;
-            padding-top: 0px;
-        }
-    }
-    .micro_content{
-        width: 50%;
-        margin-left: 60px;
-        margin-right: 20px;
-        padding-bottom: 30px;
-    }
-
-    h10,h6{
-        color: black;
-    }
-
-    ul{
-        display: inline;
-        list-style: none;
-        color: var(--color-textbouton);
-    }
-
-    .cote{
-        display: flex;
-        padding-left: 0px;
-        gap: 260px;
-        ul{
-            display: inline;
-            list-style: none;
-        }
-    }
-    .representations{
-        display: flex;
-        justify-content: flex-start;
-        padding-left: 0;
-        /*ul{
-            display: list-item;
-        }*/
-        .representation1{
-            display: block;
-            background-color: var(--color-orange);
-            height: 20px;
-            width: 250px;
-        }
-        .representation2{
-            display: block;
-            background-color: var(--color-bouton);
-            height: 20px;
-            width: 250px;
-        }
-    }
-    .buttons{
-        display: flex;
-        margin-top: 40px;
+    background-color: var(--color-defond);
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
         justify-content: space-between;
     }
-    .button{
+    span{
         display: inline-flex;
-        background-color: var(--color-bouton);
-        padding: 25px;
-        color: var(--color-textbouton);
+        padding: 15px;
+        align-items: center;
+        background-color: var(--color-icones);
     }
-    .buttoncontribution{
-        background-color: var(--color-orange);
-        margin-top: 30px;
-        a{
-          padding: 160px;
+
+    .card{
+        align-items: center;
+        background-color: white;
+        text-align: center;
+
+        display: grid;
+        grid-template-columns:  3fr 1fr;
+        gap: 50px;
+        justify-content: center;
+
+        .card_icon{
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .cardparticuliere{
+        align-items: center;
+        background-color: white;
+        text-align: center;
+
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 60px;
+        justify-content: center;
+
+        .card_icon{
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .wrapper{
+        padding: 80px;
+        background-color: var(--color-projet);
+        h2{
+            text-align: left;
         }
     }
 
