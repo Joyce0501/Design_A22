@@ -1,0 +1,44 @@
+.graphsoutien{
+    background-color: var(--color-defond);
+
+    .cardgraphcontribution{
+        //    align-items: center;
+
+        background-color: white;
+        margin-top: 0px;
+        //     text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        //    display: grid;
+        //    grid-template-columns:  3fr 1fr;
+        gap: 50px;
+        justify-content: center;
+
+        position: relative;
+
+        .card_icon{
+            width: 50px;
+            height: 50px;
+        }
+
+        span{
+            display: inline-flex;
+            padding: 15px;
+            align-items: center;
+            background-color: var(--color-icones);
+            position: absolute;
+            top: 5%;
+            right: 5%;
+        }
+    }
+
+    .wrapper{
+        padding: 50px;
+        background-color: var(--color-projet);
+        h2{
+            text-align: left;
+        }
+    }
+
+}

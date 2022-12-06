@@ -28,10 +28,11 @@
 // C’est là que la majorité de notre travail a lieu.
 @import 'components/icons';
 @import 'components/header';
-@import 'components/micro';
-@import 'components/barre';
-@import 'components/details';
-@import 'components/footer';
+@import 'components/cartesprincipales';
+@import 'components/cartestertiaires';
+@import 'components/graphcontribution';
+@import 'components/cartesecondaires';
+@import 'components/graphsoutien';
 
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page

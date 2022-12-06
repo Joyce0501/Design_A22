@@ -1,0 +1,72 @@
+.cartesecondaires{
+    background-color: var(--color-defond);
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-content: space-between;
+    }
+    span{
+        display: inline-flex;
+        padding: 15px;
+        align-items: center;
+        background-color: var(--color-icones);
+        position: absolute;
+        top: 5%;
+        right: 5%;
+    }
+
+    .card{
+        //    align-items: center;
+        background-color: white;
+        //     text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        //    display: grid;
+        //    grid-template-columns:  3fr 1fr;
+        gap: 50px;
+        justify-content: center;
+
+        position: relative;
+
+        .card_icon{
+            width: 50px;
+            height: 50px;
+        }
+
+        .textcard{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            ul{
+                list-style: none;
+            }
+        }
+    }
+
+    .cardparticuliere{
+        //   align-items: center;
+        background-color: white;
+        //    text-align: center;
+
+        //     display: grid;
+        //    grid-template-columns: 2fr 1fr;
+        gap: 60px;
+        justify-content: center;
+
+        position: relative;
+
+        .card_icon{
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .wrapper{
+        padding: 50px;
+        background-color: var(--color-projet);
+        h2{
+            text-align: left;
+        }
+    }
+}
