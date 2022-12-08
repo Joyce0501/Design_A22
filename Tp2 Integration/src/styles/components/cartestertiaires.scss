@@ -34,13 +34,24 @@
             width: 50px;
             height: 50px;
         }
+        .titre{
+            color: black;
+            font-weight: bold;
+            padding-left: 20px;
 
+        }
         .textcard{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            color: black;
+            gap: 10px;
             ul{
                 list-style: none;
             }
+        }
+        .plus{
+            color: black;
+            text-align: center;
         }
     }
     .card1{
@@ -62,30 +73,24 @@
             height: 50px;
         }
 
+        .titre{
+            color: black;
+            font-weight: bold;
+            padding-left: 20px;
+            margin-top: 0px;
+           }
+
         .textcard{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
+            color: black;
+            gap: 10px;
             ul{
                 list-style: none;
             }
         }
-    }
-
-    .cardparticuliere{
-        //   align-items: center;
-        background-color: white;
-        //    text-align: center;
-
-        //     display: grid;
-        //    grid-template-columns: 2fr 1fr;
-        gap: 60px;
-        justify-content: center;
-
-        position: relative;
-
-        .card_icon{
-            width: 50px;
-            height: 50px;
+        .vide{
+            color: white;
         }
     }
 
@@ -94,6 +99,55 @@
         background-color: var(--color-projet);
         h2{
             text-align: left;
+        }
+        padding-top: 0px;
+    }
+
+    @media screen and (max-width: $breakpoint-xs) {
+
+        .cards{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card1{
+            //    align-items: center;
+            background-color: white;
+            //     text-align: center;
+            display: flex;
+            flex-direction: column;
+
+            //    display: grid;
+            //    grid-template-columns:  3fr 1fr;
+            gap: 50px;
+            justify-content: center;
+
+            position: relative;
+
+            .card_icon{
+                width: 50px;
+                height: 50px;
+            }
+
+            .titre{
+                color: black;
+                font-weight: bold;
+                padding-left: 20px;
+                margin-top: 0px;
+            }
+
+            .textcard{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                color: black;
+                gap: 10px;
+                ul{
+                    list-style: none;
+                }
+            }
+            .vide{
+                color: white;
+            }
         }
     }
 }

@@ -1,5 +1,6 @@
 .graphsoutien{
     background-color: var(--color-defond);
+    color: var(--color-black-text);
 
     .cardgraphcontribution{
         //    align-items: center;
@@ -39,6 +40,12 @@
         h2{
             text-align: left;
         }
+        padding-top: 0px;
+    }
+
+    h5{
+        padding-left: 10px;
+        padding-top: 20px;
     }
 
 }

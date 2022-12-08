@@ -1,9 +1,10 @@
-.graphcontribution{
+.graphvisite{
     background-color: var(--color-defond);
     color: var(--color-black-text);
 
-    .cardgraphcontribution{
+    .cardgraphvisite{
         //    align-items: center;
+
         background-color: white;
         margin-top: 0px;
         //     text-align: center;
@@ -28,8 +29,8 @@
             align-items: center;
             background-color: var(--color-icones);
             position: absolute;
-            top: 1%;
-            right: 1%;
+            top: 5%;
+            right: 5%;
         }
     }
 

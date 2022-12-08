@@ -38,10 +38,35 @@
         .textcard{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+
+     //       grid-template-columns: 2fr 1fr 2fr;
+            color: black;
+            gap: 10px;
             ul{
                 list-style: none;
             }
+
         }
+        .titre{
+            color: black;
+            font-weight: bold;
+            padding-left: 20px;
+
+        }
+
+        //.petitebarre{
+        //    background-color: var(--color-barre);
+        //    color: var(--color-barre);
+        //    width: 5px;
+        //    height: 150px;
+        //}
+
+        .plus{
+            color: black;
+            text-align: center;
+            text-align: center;
+        }
+
     }
 
     .cardparticuliere{
@@ -67,6 +92,15 @@
         background-color: var(--color-projet);
         h2{
             text-align: left;
+        }
+        padding-top: 0px;
+    }
+
+    @media screen and (max-width: $breakpoint-xs) {
+
+        .cards{
+            display: flex;
+            flex-direction: column;
         }
     }
 }

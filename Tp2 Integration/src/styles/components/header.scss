@@ -24,4 +24,23 @@ header{
         }
     }
 
+    .menu-hamburger{
+        display: none;
+    }
+}
+
+@media screen and (max-width: $breakpoint-xs){
+    .header_nav{
+        display: none;
+    }
+
+    .menu-hamburger{
+        padding-left: 0px;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            gap: 110px;
+        }
+    }
+
 }

@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>À renommer</title>
 
-    <link rel="stylesheet" href="styles/main.css"/>
+    <head>
+        <meta charset="utf-8"/>
 
-    <script src="scripts/main.js" defer></script>
-</head>
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+        <title>Microfinancement</title>
+
+        <link rel="stylesheet" href="styles/main.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Carter+One&family=Roboto:ital,wght@0,700;1,400&display=swap"
+            rel="stylesheet">
+
+        <script src="scripts/main.js" defer></script>
+    </head>
+
 
 <body>
 <header class="header">
+
     <div class="wrapper">
         <nav class="header_nav">
             <ul>
-                <a href="#" class="header_brand"><img src="assets/images/logo.png" alt="Logo Crypto"></a>
+                <a href="#" class="header_brand"><img src="assets/images/logo.png" alt="Logo"></a>
                 <li><a href="#">Découvrir un projet</a></li>
                 <li><a href="#">Démarrer un projet</a></li>
-                <li><a href="#"><img src="assets/images/recherche.png" alt="Logo Crypto"></a></li>
-                <li><a href="#"><img src="assets/images/personne.png" alt="Logo Crypto"></a></li>
+                <li><a href="#"><img src="assets/images/recherche.png" alt="Logo recherche"></a></li>
+                <li><a href="#"><img src="assets/images/personne.png" alt="Logo personne"></a></li>
             </ul>
         </nav>
+
+        <div class="menu-hamburger">
+            <li><a href="#"><img src="assets/icons/menu.svg" alt="Logo menu"></a></li>
+            <li><a href="#"><img src="assets/images/personne.png" alt="Logo personne"></a></li>
+        </div>
+
     </div>
+
 </header>
+
+
 
 <section class="cartesprincipales">
     <div class="wrapper">
@@ -80,6 +99,7 @@
                         <li><p>Contrepartie 2</p></li>
                         <li><p>Contrepartie 3</p></li>
                     </ul>
+<!--                    <div class="petitebarre"></div>-->
                     <ul class="informations">
                         <li><p>Prix</p></li>
                         <li><p>100 $</p></li>
@@ -87,9 +107,10 @@
                         <li><p>599 $</p></li>
                     </ul>
                 </div>
+                <p class="plus">Voir plus</p>
             </div>
             <div class="card">
-                <p>Likes</p>
+                <p class="titre">Likes</p>
                 <span class = "card_icon"> <img src="assets/icons/likes.svg" alt="Contributeur"></span>
                     <div class="textcard">
                         <ul class="criteres">
@@ -105,9 +126,10 @@
                             <li><p>20</p></li>
                         </ul>
                     </div>
+                <p class="plus">Voir plus</p>
             </div>
             <div class="card">
-                <p>Informations a jour</p>
+                <p class="titre">Informations a jour</p>
                 <span class = "card_icon"> <img src="assets/icons/data.svg" alt="Temps"></span>
                 <div class="textcard">
                     <ul class="criteres">
@@ -123,6 +145,7 @@
                         <li><p>6 500$</p></li>
                     </ul>
                 </div>
+                <p class="plus">Voir plus</p>
             </div>
         </div>
     </div>
@@ -167,9 +190,10 @@
                         <li><p>100 %</p></li>
                     </ul>
                 </div>
+                <div class="vide"> vide </div>
             </div>
             <div class="card">
-                <p>Likes</p>
+                <p class="titre">Partages</p>
                 <span class = "card_icon"> <img src="assets/icons/share.svg" alt="Partages"></span>
                 <div class="textcard">
                     <ul class="criteres">
@@ -185,7 +209,18 @@
                         <li><p>100</p></li>
                     </ul>
                 </div>
+                <p class="plus">Voir plus</p>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="graphvisite">
+    <div class="wrapper">
+        <div class="cardgraphvisite">
+            <h5>Visite en moyenne par mois</h5>
+            <img src="assets/images/chart3.png" alt="Graphique Soutien">
+            <span class = "card_icon"> <img src="assets/icons/chart2.svg" alt="Graph"></span>
         </div>
     </div>
 </section>
