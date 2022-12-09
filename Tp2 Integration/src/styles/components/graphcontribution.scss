@@ -22,6 +22,10 @@
             height: 50px;
         }
 
+        .card_iconMobile{
+            display: none;
+        }
+
         span{
             display: inline-flex;
             padding: 15px;
@@ -31,6 +35,10 @@
             top: 1%;
             right: 1%;
         }
+    }
+
+    .cardgraphcontributionMobile{
+        display: none;
     }
 
     .wrapper{
@@ -47,4 +55,16 @@
         padding-top: 20px;
     }
 
+    @media screen and (max-width: $breakpoint-xs) {
+        h5{
+            font-size: 11px;
+            padding-left: 5px;
+        }
+
+        .criteres{
+            p{
+                font-size: 10px;
+            }
+        }
+    }
 }

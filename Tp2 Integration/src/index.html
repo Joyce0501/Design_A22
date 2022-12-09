@@ -80,8 +80,21 @@
     <div class="wrapper">
         <div class="cardgraphcontribution">
             <h5>Contribution en moyenne par mois</h5>
-            <img src="assets/images/chart1.png" alt="Graphique Contribution">
+            <picture>
+                <source media="(max-width: 1440px)" srcset="assets/images/chart1.png">
+                <source media="(max-width: 375px)" srcset="assets/images/chart1_mobile.png">
+                <img src="assets/images/chart1.png" alt="Graphique Contribution">
+            </picture>
             <span class = "card_icon"> <img src="assets/icons/chart1.svg" alt="Graph"></span>
+        </div>
+        <div class="cardgraphcontributionMobile">
+            <h5>Contribution en moyenne par mois</h5>
+            <picture>
+                <source media="(max-width: 1440px)" srcset="assets/images/chart1.png">
+                <source media="(max-width: 375px)" srcset="assets/images/chart1_mobile.png">
+                <img src="assets/images/chart1.png" alt="Graphique Contribution">
+            </picture>
+            <span class = "card_iconMobile"> <img src="assets/icons/chart1_mobile.svg" alt="Graph"></span>
         </div>
     </div>
 </section>
