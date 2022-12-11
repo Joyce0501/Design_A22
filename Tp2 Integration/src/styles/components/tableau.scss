@@ -1,0 +1,40 @@
+.tableau{
+    background-color: var(--color-projet);
+    .wrapper{
+        background-color: var(--color-defond);
+    }
+        ul{
+            list-style: none;
+            display: inline-flex;
+            gap: 150px;
+        }
+
+    .contenutableau{
+        .detailmontant{
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+        }
+    }
+
+    span{
+        p{
+            border-radius: 30px;
+            background-color: green;
+        }
+    }
+
+    .detailcontributeur{
+
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+
+        .contributeuricons{
+            ul{
+                list-style: none;
+                display: inline-block;
+            }
+        }
+    }
+
+
+}

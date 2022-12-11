@@ -29,7 +29,7 @@ header{
     }
 }
 
-@media screen and (max-width: $breakpoint-xs){
+@media screen and (max-width: $breakpoint-mobile){
     .header_nav{
         display: none;
     }

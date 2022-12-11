@@ -76,7 +76,7 @@
         }
     }
 
-    @media screen and (max-width: $breakpoint-xs) {
+    @media screen and (max-width: $breakpoint-mobile) {
 
         .cards{
             display: flex;
