@@ -1,38 +1,89 @@
 .tableau{
-    background-color: var(--color-projet);
+    background-color: var(--color-suivie);
     .wrapper{
-        background-color: var(--color-defond);
+        background-color: var(--color-projet);
     }
         ul{
             list-style: none;
             display: inline-flex;
             gap: 150px;
+            color: black;
         }
+    .titretableau{
+        ul{
+            list-style: none;
+            display: inline-flex;
+            gap: 160px;
+            color: black;
+        }
+    }
+
+    .petitebarre{
+        background-color: var(--color-orange);
+        color: var(--color-orange);
+        height: 1px;
+    }
 
     .contenutableau{
         .detailmontant{
-            display: grid;
-            grid-template-rows: repeat(2, 1fr);
+        //    display: grid;
+        ////    grid-template-rows: repeat(2, 1fr);
+        //    .montant{
+        //        p{
+        //          justify-items: end;
+        //        }
+        //    }
         }
     }
 
-    span{
-        p{
-            border-radius: 30px;
-            background-color: green;
+    .contenutableau1{
+        span{
+            margin-left: 0px;
+            p{
+                border-radius: 30px;
+                background-color: var( --color-valide);
+                width: 80px;
+                text-align: center;
+            }
         }
     }
+
+    .contenutableau2{
+        span{
+            margin-left: 0px;
+            p{
+                border-radius: 30px;
+                background-color: var( --color-echoue);
+                width: 80px;
+                text-align: center;
+            }
+        }
+    }
+
+    .contenutableau3{
+        span{
+            margin-left: 0px;
+            p{
+                border-radius: 30px;
+                background-color: var( --color-encours);
+                width: 80px;
+                text-align: center;
+            }
+        }
+    }
+
+
 
     .detailcontributeur{
 
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
+        //display: grid;
+        //grid-template-rows: repeat(2, 1fr);
 
-        .contributeuricons{
-            ul{
-                list-style: none;
-                display: inline-block;
-            }
+       .contributeuricons{
+           display: grid;
+           grid-template-columns: repeat(2, 1fr);
+           gap: 10px;
+           padding-left: 0px;
         }
     }
 

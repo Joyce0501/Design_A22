@@ -1,7 +1,7 @@
 .filtre{
-    background-color: var(--color-projet);
+    background-color: var(--color-suivie);
     .wrapper{
-        background-color: var(--color-defond);
+        background-color: var(--color-suivie);
     }
     .enteteselection{
         display: grid;
@@ -13,9 +13,12 @@
             list-style: none;
             display: inline-flex;
             gap: 45px;
+            color: black;
         }
         h2{
-            margin-top: 30px;
+            margin-top: 25px;
+            margin-left: 35px;
+            color: var(--color-orange);
         }
     }
 }

@@ -12,8 +12,8 @@
         align-items: center;
         background-color: var(--color-icones);
         position: absolute;
-        top: 5%;
-        right: 5%;
+        top: 2%;
+        right: 3%;
     }
 
     .card{
@@ -38,7 +38,8 @@
             color: black;
             font-weight: bold;
             padding-left: 20px;
-
+            padding-left: 20px;
+            padding-top: 5px;
         }
         .textcard{
             display: grid;
@@ -72,12 +73,19 @@
             width: 50px;
             height: 50px;
         }
-
+        span{
+            display: inline-flex;
+            padding: 15px;
+            align-items: center;
+            background-color: var(--color-icones);
+            position: absolute;
+            top: 2%;
+            right: 2%;
+        }
         .titre{
             color: black;
             font-weight: bold;
             padding-left: 20px;
-            margin-top: 0px;
            }
 
         .textcard{
@@ -94,6 +102,15 @@
         }
     }
 
+    .couleur{
+        color: var(--color-text);
+    }
+
+    .petitebarre{
+        background-color: var(--color-lineseparation);
+        color: var(--color-lineseparation);
+        height: 2px;
+    }
     .wrapper{
         padding: 50px;
         background-color: var(--color-projet);
