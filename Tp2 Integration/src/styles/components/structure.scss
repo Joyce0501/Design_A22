@@ -7,19 +7,29 @@
 aside{
     background-color: var(--color-defond);
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.tableaubord{
+  //  flex-direction: column;
+  ///  justify-content: space-between;
 
-    .t1{
+    .tableaubordnav{
         display: flex;
         ul{
             list-style: none;
+            margin-top: 65px;
             justify-content: space-between;
-            gap: 110px;
+            gap: 45px;
+            color: black;
+
+            .petitebarre{
+                background-color: var(--color-orange);
+                color: var(--color-orange);
+                height: 1px;
+            }
+        }
+        .tableaubord{
+
         }
     }
+
 }
 
 main{
