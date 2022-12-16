@@ -1,0 +1,28 @@
+.site-container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+    overflow: hidden;
+}
+aside{
+    background-color: var(--color-defond);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tableaubord{
+
+    .t1{
+        display: flex;
+        ul{
+            list-style: none;
+            justify-content: space-between;
+            gap: 110px;
+        }
+    }
+}
+
+main{
+    overflow-y: scroll;
+    background-color: var(--color-background-primary);
+}
