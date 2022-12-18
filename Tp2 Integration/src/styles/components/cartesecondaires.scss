@@ -20,6 +20,7 @@
         //    align-items: center;
         background-color: white;
         //     text-align: center;
+
         display: flex;
         flex-direction: column;
 
@@ -45,8 +46,40 @@
             ul{
                 list-style: none;
             }
-
+            .criteres{
+                display: inline;
+            }
+            .informations{
+                display: inline;
+            }
         }
+        .textcard1{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            //       grid-template-columns: 2fr 1fr 2fr;
+            color: black;
+            gap: 10px;
+            ul{
+                font-size: 14px;
+                list-style: none;
+            }
+
+
+            .criteres{
+                display: inline;
+            }
+            .informations{
+                display: inline;
+            }
+        }
+        .petitebarre1{
+            background-color: var(--color-lineseparation);
+            color: var(--color-lineseparation);
+            height: 2px;
+            margin-bottom: 3px;
+        }
+
         .petitebarre{
             background-color: var(--color-lineseparation);
             color: var(--color-lineseparation);
@@ -74,24 +107,6 @@
 
     }
 
-    .cardparticuliere{
-        //   align-items: center;
-        background-color: white;
-        //    text-align: center;
-
-        //     display: grid;
-        //    grid-template-columns: 2fr 1fr;
-        gap: 60px;
-        justify-content: center;
-
-        position: relative;
-
-        .card_icon{
-            width: 50px;
-            height: 50px;
-        }
-    }
-
     .wrapper{
         padding: 50px;
         background-color: var(--color-projet);
@@ -102,10 +117,11 @@
     }
 
     @media screen and (max-width: $breakpoint-mobile) {
-
-        .cards{
+        .cards {
             display: flex;
             flex-direction: column;
         }
+
     }
+
 }

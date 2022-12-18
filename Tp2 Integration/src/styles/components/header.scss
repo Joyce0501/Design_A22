@@ -12,7 +12,7 @@ header{
     }
     .header_nav{
         color: var(--color-nav);
-        font-size: 16px;
+        font-size: 14px;
         padding-left: 0;
         ul{
             display: flex;
@@ -24,23 +24,101 @@ header{
         }
     }
 
-    .menu-hamburger{
+
+    //.menu-hamberger {
+    //    span {
+    //        width: 20px;
+    //        height: 2px;
+    //        background-color: black;
+    //        display: block;
+    //    }
+    //
+    //    display: none;
+    //    gap: 5px;
+    //}
+
+    .mobile{
         display: none;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 250px;
+        list-style: none;
+
+        .menu{
+            margin-top: 15px;
+            margin-left: 50px;
+        }
     }
+
+    //.mobile{
+    //    display: none;
+    //    grid-template-columns: repeat(2, 1fr);
+    //    gap: 250px;
+    //    list-style: none;
+    //
+    //    .menu-hamberger {
+    //        span {
+    //            width: 20px;
+    //            height: 2px;
+    //            background-color: black;
+    //            display: block;
+    //        }
+    //        display: grid;
+    //        gap: 2px;
+    //    }
+    //}
+    //
+    //.menu-hamberger {
+    //    span {
+    //        width: 20px;
+    //        height: 2px;
+    //        background-color: black;
+    //        display: block;
+    //    }
+    //    display: none;
+    //    gap: 5px;
+    //}
 }
 
 @media screen and (max-width: $breakpoint-mobile){
-    .header_nav{
-        display: none;
+
+    .wrapper{
+        .header_nav{
+            display: none;
+        }
+
+        .mobile{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 250px;
+            list-style: none;
+
+            .menu{
+                margin-top: 15px;
+                margin-left: 50px;
+            }
+
+            //.menu-hamberger {
+            //    span {
+            //        width: 20px;
+            //        height: 2px;
+            //        background-color: black;
+            //        display: block;
+            //    }
+            //    display: grid;
+            //    gap: 2px;
+            //}
+        }
+
     }
 
-    .menu-hamburger{
-        padding-left: 0px;
-        ul{
-            display: flex;
-            justify-content: space-between;
-            gap: 110px;
-        }
-    }
+
+    //.menu-hamburger{
+    //    padding-left: 0px;
+    //    ul{
+    //        display: flex;
+    //        justify-content: space-between;
+    //        gap: 110px;
+    //    }
+    //}
 
 }

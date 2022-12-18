@@ -14,10 +14,9 @@ aside{
         display: flex;
         ul{
             list-style: none;
-            margin-top: 65px;
-            justify-content: space-between;
-            gap: 45px;
+            margin-top: 135px;
             color: black;
+            margin-left: 0px;
 
             .petitebarre{
                 background-color: var(--color-orange);
@@ -35,4 +34,11 @@ aside{
 main{
     overflow-y: scroll;
     background-color: var(--color-background-primary);
+}
+@media screen and (max-width: $breakpoint-mobile){
+    .tableaubord{
+        display: none;
+    }
+
+
 }

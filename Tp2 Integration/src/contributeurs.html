@@ -19,6 +19,22 @@
 
 <body>
 
+<div class="site-container">
+    <aside>
+        <nav class="tableaubordnav">
+            <ul class="tableaubord">
+                <li><a href="#"><img src="assets/icons/resume.svg" alt="Logo resume">Resume campagne</a></li>
+                <li><a href="#"><img src="assets/icons/suivie.svg" alt="Logo suivie">Suivie contrepartie</a></li>
+                <li><a href="#"><img src="assets/icons/news.svg" alt="Logo news">Ajouter une news</a></li>
+                <div class="petitebarre">.</div>
+                <li><a href="#"><img src="assets/icons/parametres.svg" alt="Logo parametres">Parametres</a></li>
+                <li><a href="#"><img src="assets/icons/deconnexion.svg" alt="Logo deconnexion">Deconnexion</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+
 <header class="header">
 
     <div class="wrapper">
@@ -32,10 +48,23 @@
             </ul>
         </nav>
 
-        <div class="menu-hamburger">
-            <li><a href="#"><img src="assets/icons/menu.svg" alt="Logo menu"></a></li>
-            <li><a href="#"><img src="assets/images/personne.png" alt="Logo personne"></a></li>
+        <div class="mobile">
+
+            <div class="menu">
+                <li><a href="#"><img src="assets/icons/menu.svg" alt="Logo personne"></a></li>
+            </div>
+
+            <!--                <div class="menu-hamberger">-->
+            <!--                    <span></span>-->
+            <!--                    <span></span>-->
+            <!--                    <span></span>-->
+            <!--                </div>-->
+            <div class="profil">
+                <li><a href="#"><img src="assets/images/personne.png" alt="Logo personne"></a></li>
+            </div>
+
         </div>
+
 
     </div>
 
@@ -75,9 +104,9 @@
 <!--        1-->
         <div class="contenutableau1" >
             <ul>
-                <li><p href="#">2022/04/01</p></li>
+                <li><p class="date">2022/04/01</p></li>
 
-                <li><p href="#">Visa</p></li>
+                <li><p class="valide">Visa</p></li>
 
                 <li class="detailcontributeur">
                     <p href="#" class="nomcontributeur">Martine L.</p>
@@ -92,7 +121,12 @@
                     <p href="#" class="nom">Contrepartie 1</p>
                 </li>
 
-                <li><span><p href="#">Valide</p></span></li>
+                <li><span><p class="valide">Valide</p></span></li>
+
+                <li class="detailvalidite">
+                    <p href="#">Visa</p>
+                   <span><p href="#">Valide</p></span>
+                </li>
 
             </ul>
 
@@ -102,9 +136,9 @@
 
         <div class="contenutableau2" >
             <ul>
-                <li><p href="#">2022/04/01</p></li>
+                <li><p class="date">2022/04/01</p></li>
 
-                <li><p href="#">Visa</p></li>
+                <li><p class="valide">Visa</p></li>
 
                 <li class="detailcontributeur">
                     <p href="#" class="nomcontributeur">Laurent M.</p>
@@ -119,7 +153,12 @@
                     <p href="#" class="nom">Contrepartie 1</p>
                 </li>
 
-                <li><span><p href="#">Echoue</p></span></li>
+                <li><span><p class="valide">Echoue</p></span></li>
+
+                <li class="detailvalidite">
+                    <p href="#">Visa</p>
+                    <span><p href="#">Echoue</p></span>
+                </li>
 
             </ul>
 
@@ -129,9 +168,9 @@
 
         <div class="contenutableau3" >
             <ul>
-                <li><p href="#">2022/04/01</p></li>
+                <li><p class="date">2022/04/01</p></li>
 
-                <li><p href="#">Visa</p></li>
+                <li><p class="valide">Visa</p></li>
 
                 <li class="detailcontributeur">
                     <p href="#" class="nomcontributeur">Lizabe N.</p>
@@ -146,7 +185,12 @@
                     <p href="#" class="nom">Contrepartie 3</p>
                 </li>
 
-                <li><span><p href="#">En cours</p></span></li>
+                <li><span><p class="valide">En cours</p></span></li>
+
+                <li class="detailvalidite">
+                    <p>Visa</p>
+                    <span><p href="#">En cours</p></span>
+                </li>
 
             </ul>
 
@@ -157,9 +201,9 @@
 <!--        2-->
         <div class="contenutableau2" >
             <ul>
-                <li><p href="#">2022/04/01</p></li>
+                <li><p class="date">2022/04/01</p></li>
 
-                <li><p href="#">Visa</p></li>
+                <li><p class="valide">Visa</p></li>
 
                 <li class="detailcontributeur">
                     <p href="#" class="nomcontributeur">Laurent M.</p>
@@ -174,7 +218,13 @@
                     <p href="#" class="nom">Contrepartie 1</p>
                 </li>
 
-                <li><span><p href="#">Echoue</p></span></li>
+                <li><span><p class="valide">Echoue</p></span></li>
+
+                <li class="detailvalidite">
+                    <p href="#">Visa</p>
+                    <span><p href="#">Echoue</p></span>
+                </li>
+
 
             </ul>
 
@@ -184,9 +234,9 @@
 
         <div class="contenutableau1" >
             <ul>
-                <li><p href="#">2022/04/01</p></li>
+                <li><p class="date">2022/04/01</p></li>
 
-                <li><p href="#">Visa</p></li>
+                <li><p class="valide">Visa</p></li>
 
                 <li class="detailcontributeur">
                     <p href="#" class="nomcontributeur">Martine L.</p>
@@ -201,7 +251,12 @@
                     <p href="#" class="nom">Contrepartie 1</p>
                 </li>
 
-                <li><span><p href="#">Valide</p></span></li>
+                <li><span><p class="valide">Valide</p></span></li>
+
+                <li class="detailvalidite">
+                    <p href="#">Visa</p>
+                    <span><p href="#">Valide</p></span>
+                </li>
 
             </ul>
 
@@ -211,9 +266,9 @@
 
         <div class="contenutableau3" >
             <ul>
-                <li><p href="#">2022/04/01</p></li>
+                <li><p class="date">2022/04/01</p></li>
 
-                <li><p href="#">Visa</p></li>
+                <li><p class="valide">Visa</p></li>
 
                 <li class="detailcontributeur">
                     <p href="#" class="nomcontributeur">Lizabe N.</p>
@@ -228,7 +283,12 @@
                     <p href="#" class="nom">Contrepartie 3</p>
                 </li>
 
-                <li><span><p href="#">En cours</p></span></li>
+                <li><span><p class="valide">En cours</p></span></li>
+
+                <li class="detailvalidite">
+                    <p>Visa</p>
+                    <span><p href="#">En cours</p></span>
+                </li>
 
             </ul>
 
@@ -239,9 +299,9 @@
 <!--        3-->
         <div class="contenutableau1" >
             <ul>
-                <li><p href="#">2022/04/01</p></li>
+                <li><p class="date">2022/04/01</p></li>
 
-                <li><p href="#">Visa</p></li>
+                <li><p class="valide">Visa</p></li>
 
                 <li class="detailcontributeur">
                     <p href="#" class="nomcontributeur">Martine L.</p>
@@ -256,7 +316,12 @@
                     <p href="#" class="nom">Contrepartie 1</p>
                 </li>
 
-                <li><span><p href="#">Valide</p></span></li>
+                <li><span><p class="valide">Valide</p></span></li>
+
+                <li class="detailvalidite">
+                    <p href="#">Visa</p>
+                    <span><p href="#">Valide</p></span>
+                </li>
 
             </ul>
 
@@ -266,9 +331,9 @@
 
         <div class="contenutableau2" >
             <ul>
-                <li><p href="#">2022/04/01</p></li>
+                <li><p class="date">2022/04/01</p></li>
 
-                <li><p href="#">Visa</p></li>
+                <li><p class="valide">Visa</p></li>
 
                 <li class="detailcontributeur">
                     <p href="#" class="nomcontributeur">Laurent M.</p>
@@ -283,8 +348,12 @@
                     <p href="#" class="nom">Contrepartie 1</p>
                 </li>
 
-                <li><span><p href="#">Echoue</p></span></li>
+                <li><span><p class="valide">Echoue</p></span></li>
 
+                <li class="detailvalidite">
+                    <p href="#">Visa</p>
+                    <span><p href="#">Echoue</p></span>
+                </li>
             </ul>
 
             <div class="petitebarre"></div>
@@ -293,9 +362,9 @@
 
         <div class="contenutableau3" >
             <ul>
-                <li><p href="#">2022/04/01</p></li>
+                <li><p class="date">2022/04/01</p></li>
 
-                <li><p href="#">Visa</p></li>
+                <li><p class="valide">Visa</p></li>
 
                 <li class="detailcontributeur">
                     <p href="#" class="nomcontributeur">Lizabe N.</p>
@@ -310,7 +379,12 @@
                     <p href="#" class="nom">Contrepartie 3</p>
                 </li>
 
-                <li><span><p href="#">En cours</p></span></li>
+                <li><span><p class="valide">En cours</p></span></li>
+
+                <li class="detailvalidite">
+                    <p>Visa</p>
+                    <span><p href="#">En cours</p></span>
+                </li>
 
             </ul>
 
@@ -321,9 +395,9 @@
 <!--        4-->
         <div class="contenutableau2" >
             <ul>
-                <li><p href="#">2022/04/01</p></li>
+                <li><p class="date">2022/04/01</p></li>
 
-                <li><p href="#">Visa</p></li>
+                <li><p class="valide">Visa</p></li>
 
                 <li class="detailcontributeur">
                     <p href="#" class="nomcontributeur">Laurent M.</p>
@@ -338,7 +412,12 @@
                     <p href="#" class="nom">Contrepartie 1</p>
                 </li>
 
-                <li><span><p href="#">Echoue</p></span></li>
+                <li><span><p class="valide">Echoue</p></span></li>
+
+                <li class="detailvalidite">
+                    <p href="#">Visa</p>
+                    <span><p href="#">Echoue</p></span>
+                </li>
 
             </ul>
 
@@ -347,6 +426,10 @@
         </div>
     </div>
 </section>
+
+</main>
+
+</div>
 
 </body>
 </html>

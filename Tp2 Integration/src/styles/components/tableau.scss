@@ -1,5 +1,6 @@
 .tableau{
     background-color: var(--color-suivie);
+
     .wrapper{
         background-color: var(--color-projet);
     }
@@ -46,8 +47,14 @@
                 text-align: center;
             }
         }
+        .detailvalidite{
+            display: none;
+        }
     }
 
+    .nomcontributeur , .nom{
+      font-size: 13px;
+    }
     .contenutableau2{
         span{
             margin-left: 0px;
@@ -57,6 +64,10 @@
                 width: 80px;
                 text-align: center;
             }
+        }
+
+        .detailvalidite{
+            display: none;
         }
     }
 
@@ -70,9 +81,11 @@
                 text-align: center;
             }
         }
+
+        .detailvalidite{
+            display: none;
+        }
     }
-
-
 
     .detailcontributeur{
 
@@ -86,6 +99,54 @@
            padding-left: 0px;
         }
     }
+}
 
+@media screen and (max-width: $breakpoint-mobile){
+
+    .wrapper{
+        .titretableau{
+            display: none;
+        }
+
+        .date{
+            display: none;
+        }
+        ul{
+            list-style: none;
+            display: inline-flex;
+            gap: 40px;
+            color: black;
+            margin-left: 0px;
+        }
+
+        .contenutableau1{
+            .detailvalidite{
+                display: inline;
+            }
+            .valide{
+                display: none;
+            }
+        }
+
+        .contenutableau2{
+            .detailvalidite{
+                display: inline;
+            }
+            .valide{
+                display: none;
+            }
+        }
+
+        .contenutableau3{
+            .detailvalidite{
+                display: inline;
+            }
+            .valide{
+                display: none;
+            }
+        }
+
+
+    }
 
 }
