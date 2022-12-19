@@ -50,6 +50,12 @@
         .detailvalidite{
             display: none;
         }
+        .dumobile{
+            display: none;
+        }
+        .montant{
+            text-align: center;
+        }
     }
 
     .nomcontributeur , .nom{
@@ -69,6 +75,13 @@
         .detailvalidite{
             display: none;
         }
+        .dumobile{
+            display: none;
+        }
+        .montant{
+            text-align: center;
+        }
+
     }
 
     .contenutableau3{
@@ -84,6 +97,12 @@
 
         .detailvalidite{
             display: none;
+        }
+        .dumobile{
+            display: none;
+        }
+        .montant{
+            text-align: center;
         }
     }
 
@@ -122,27 +141,63 @@
         .contenutableau1{
             .detailvalidite{
                 display: inline;
+                .visa{
+                    text-align: center;
+                }
             }
             .valide{
                 display: none;
+            }
+            .desktop{
+                display: none;
+            }
+            .dumobile{
+                display: inline;
+                .gap{
+                    gap: 150px;
+                }
             }
         }
 
         .contenutableau2{
             .detailvalidite{
                 display: inline;
+                .visa{
+                    text-align: center;
+                }
             }
             .valide{
                 display: none;
+            }
+            .desktop{
+                display: none;
+            }
+            .dumobile{
+                display: inline;
+                .gap{
+                    gap: 150px;
+                }
             }
         }
 
         .contenutableau3{
             .detailvalidite{
                 display: inline;
+                .visa{
+                    text-align: center;
+                }
             }
             .valide{
                 display: none;
+            }
+            .desktop{
+                display: none;
+            }
+            .dumobile{
+                display: inline;
+                .gap{
+                    gap: 150px;
+                }
             }
         }
 

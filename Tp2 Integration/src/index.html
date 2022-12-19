@@ -26,7 +26,7 @@
         <nav class="tableaubordnav">
             <ul class="tableaubord">
                 <li><a href="#"><img src="assets/icons/resume.svg" alt="Logo resume">Resume campagne</a></li>
-                <li><a href="#"><img src="assets/icons/suivie.svg" alt="Logo suivie">Suivie contrepartie</a></li>
+                <li><a href="contributeurs.html"><img src="assets/icons/suivie.svg" alt="Logo suivie">Suivie contrepartie</a></li>
                 <li><a href="#"><img src="assets/icons/news.svg" alt="Logo news">Ajouter une news</a></li>
                 <div class="petitebarre">.</div>
                 <li><a href="#"><img src="assets/icons/parametres.svg" alt="Logo parametres">Parametres</a></li>
@@ -40,7 +40,7 @@
         <div class="wrapper">
             <nav class="header_nav">
                 <ul>
-                    <a href="contributeurs.html" class="header_brand"><img src="assets/images/logo.png" alt="Logo"></a>
+                    <a href="#" class="header_brand"><img src="assets/images/logo.png" alt="Logo"></a>
                     <li><a href="#">Découvrir un projet</a></li>
                     <li><a href="#">Démarrer un projet</a></li>
                     <li><a href="#"><img src="assets/images/recherche.png" alt="Logo recherche"></a></li>
@@ -51,7 +51,7 @@
             <div class="mobile">
 
                 <div class="menu">
-                    <li><a href="#"><img src="assets/icons/menu.svg" alt="Logo personne"></a></li>
+                    <li><img src="assets/icons/menu.svg" alt="Logo menu"></li>
                 </div>
 
 <!--                <div class="menu-hamberger">-->
@@ -60,7 +60,7 @@
 <!--                    <span></span>-->
 <!--                </div>-->
                 <div class="profil">
-                    <li><a href="#"><img src="assets/images/personne.png" alt="Logo personne"></a></li>
+                    <li><img src="assets/images/personne.png" alt="Logo personne"></li>
                 </div>
 
             </div>
@@ -79,7 +79,7 @@
                         <h3>6 500$</h3>
                         <p>sur un objectif de 10 000$</p>
                     </div>
-                    <span class = "card_icon"> <img src="assets/icons/dollarcircle.svg" alt="Contribution"> </span>
+                    <span class = "card_icon"> <img src="assets/icons/dollarcircle.svg" alt="dollar"> </span>
                 </div>
                 <div class="card">
                     <div class="textcard">
@@ -106,8 +106,8 @@
             <div class="cardgraphcontribution">
                 <h5>Contribution en moyenne par mois</h5>
                 <picture>
-                    <source media="(max-width: 1200px)" srcset="assets/images/chart1.png">
-                    <source media="(max-width: 600px)" srcset="assets/images/chart1_mobile.png">
+                    <source media="(max-width: 1200px)" srcset="assets/images/chart1.png" class="desktop">
+                    <source media="(max-width: 600px)" srcset="assets/images/chart1_mobile.png" class="mobile">
                     <img src="assets/images/chart1.png" alt="Graphique Contribution">
                 </picture>
                 <span class = "card_icon"> <img src="assets/icons/chart1.svg" alt="Graph"></span>
@@ -115,11 +115,11 @@
             <div class="cardgraphcontributionMobile">
                 <h5>Contribution en moyenne par mois</h5>
                 <picture>
-                    <source media="(max-width: 1200px)" srcset="assets/images/chart1.png">
-                    <source media="(max-width: 600px)" srcset="assets/images/chart1_mobile.png">
+                    <source media="(max-width: 1200px)" srcset="assets/images/chart1.png" class="mobile">
+                    <source media="(max-width: 600px)" srcset="assets/images/chart1_mobile.png" class="mobile">
                     <img src="assets/images/chart1.png" alt="Graphique Contribution">
                 </picture>
-                <span class = "card_iconMobile"> <img src="assets/icons/chart1_mobile.svg" alt="Graph"></span>
+                <span class = "card_iconMobile"> <img src="assets/icons/chart1_mobile.svg" alt="Contribution icone"></span>
             </div>
         </div>
     </section>
@@ -129,7 +129,7 @@
             <div class="cards" >
                 <div class="card">
                     <p class="titre">Contreparties</p>
-                    <span class = "card_icon"> <img src="assets/icons/cadeaux.svg" alt="Contribution"> </span>
+                    <span class = "card_icon"> <img src="assets/icons/cadeaux.svg" alt="Cadeaux"> </span>
                     <div class="textcard1">
                         <ul class="criteres">
                             <li><p>Nom</p></li>
@@ -137,7 +137,6 @@
                             <li><p>Contrepartie 2</p></li>
                             <li><p>Contrepartie 3</p></li>
                         </ul>
-                        <!--                    <div class="petitebarre"></div>-->
                         <ul class="informations">
                             <li><p>Prix</p></li>
                             <li><p>100 $</p></li>
@@ -150,7 +149,7 @@
                 </div>
                 <div class="card">
                     <p class="titre">Likes</p>
-                    <span class = "card_icon"> <img src="assets/icons/likes.svg" alt="Contributeur"></span>
+                    <span class = "card_icon"> <img src="assets/icons/likes.svg" alt="Like"></span>
                     <div class="textcard">
                         <ul class="criteres">
                             <li><p>Nom</p></li>
@@ -199,7 +198,7 @@
                 <source media="(max-width: 1200px)" srcset="assets/images/chart2.png">
                 <source media="(max-width: 600px)" srcset="assets/images/chart2_mobile.png">
                 <img src="assets/images/chart2.png" alt="Graphique Soutien">
-                <span class = "card_icon"> <img src="assets/icons/chart2.svg" alt="Graph"></span>
+                <span class = "card_icon"> <img src="assets/icons/chart2.svg" alt="Soutien icone"></span>
             </div>
         </div>
     </section>
@@ -265,8 +264,8 @@
                 <h5>Visite en moyenne par mois</h5>
                 <source media="(max-width: 1200px)" srcset="assets/images/chart3.png">
                 <source media="(max-width: 600px)" srcset="assets/images/chart3_mobile.png">
-                <img src="assets/images/chart3.png" alt="Graphique Soutien">
-                <span class = "card_icon"> <img src="assets/icons/chart2.svg" alt="Graph"></span>
+                <img src="assets/images/chart3.png" alt="Graphique Visite">
+                <span class = "card_icon"> <img src="assets/icons/chart2.svg" alt="Visite icon"></span>
             </div>
         </div>
     </section>

@@ -40,18 +40,18 @@
     <div class="wrapper">
         <nav class="header_nav">
             <ul>
-                <a href="#" class="header_brand"><img src="assets/images/logo.png" alt="Logo"></a>
+                <a href="index.html" class="header_brand"><img src="assets/images/logo.png" alt="Logo"></a>
                 <li><a href="#">Découvrir un projet</a></li>
                 <li><a href="#">Démarrer un projet</a></li>
-                <li><a href="#"><img src="assets/images/recherche.png" alt="Logo recherche"></a></li>
-                <li><a href="#"><img src="assets/images/personne.png" alt="Logo personne"></a></li>
+                <li><img src="assets/images/recherche.png" alt="Logo recherche"></li>
+                <li><img src="assets/images/personne.png" alt="Logo personne"></li>
             </ul>
         </nav>
 
         <div class="mobile">
 
             <div class="menu">
-                <li><a href="#"><img src="assets/icons/menu.svg" alt="Logo personne"></a></li>
+                <li><img src="assets/icons/menu.svg" alt="Logo menu"></li>
             </div>
 
             <!--                <div class="menu-hamberger">-->
@@ -60,7 +60,7 @@
             <!--                    <span></span>-->
             <!--                </div>-->
             <div class="profil">
-                <li><a href="#"><img src="assets/images/personne.png" alt="Logo personne"></a></li>
+                <li><img src="assets/images/personne.png" alt="Logo personne"></li>
             </div>
 
         </div>
@@ -77,10 +77,10 @@
             <div class="tittre"><h2>SUIVIE DES CONTREPARTIES</h2></div>
             <div class="selection" >
                 <ul>
-                    <li><p href="#">Filtre par: </p> </li>
-                    <li><p href="#">Paiement <img src="assets/icons/downfilter.svg" alt="filter"> </p> </li>
-                    <li><p href="#">Statut <img src="assets/icons/downfilter.svg" alt="filter"> </p></li>
-                    <li><p href="#">Montant <img src="assets/icons/downfilter.svg" alt="filter"> </p></li>
+                    <li><p>Filtre par: </p> </li>
+                    <li><p>Paiement <img src="assets/icons/downfilter.svg" alt="filter"> </p> </li>
+                    <li><p>Statut <img src="assets/icons/downfilter.svg" alt="filter"> </p></li>
+                    <li><p>Montant <img src="assets/icons/downfilter.svg" alt="filter"> </p></li>
                 </ul>
             </div>
         </div>
@@ -92,336 +92,650 @@
     <div class="wrapper">
         <div class="titretableau" >
                 <ul>
-                    <li><p href="#">Date</p></li>
-                    <li><p href="#">Paiement</p></li>
-                    <li><p href="#">Contributeur</p></li>
-                    <li><p href="#">Montant</p></li>
-                    <li><p href="#">Statut</p></li>
+                    <li><p>Date</p></li>
+                    <li><p>Paiement</p></li>
+                    <li><p>Contributeur</p></li>
+                    <li><p>Montant</p></li>
+                    <li><p>Statut</p></li>
                 </ul>
                 <div class="petitebarre"></div>
             </div>
 
 <!--        1-->
         <div class="contenutableau1" >
-            <ul>
-                <li><p class="date">2022/04/01</p></li>
+            <div class="desktop">
+                <ul>
+                    <li><p class="date">2022/04/01</p></li>
 
-                <li><p class="valide">Visa</p></li>
+                    <li><p class="valide">Visa</p></li>
 
-                <li class="detailcontributeur">
-                    <p href="#" class="nomcontributeur">Martine L.</p>
-                    <ul class="contributeuricons">
-                       <li><a href="#"><img src="assets/icons/personicon.svg" alt="person"></a></li>
-                       <li><a href="#"><img src="assets/icons/message.svg" alt="message"></a></li>
-                   </ul>
-                </li>
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Martine L.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
-                <li class="detailmontant">
-                    <p href="#" class="montant">50$</p>
-                    <p href="#" class="nom">Contrepartie 1</p>
-                </li>
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
 
-                <li><span><p class="valide">Valide</p></span></li>
+                    <li><span><p class="valide">Valide</p></span></li>
 
-                <li class="detailvalidite">
-                    <p href="#">Visa</p>
-                   <span><p href="#">Valide</p></span>
-                </li>
+                </ul>
 
-            </ul>
+                <div class="petitebarre"></div>
+            </div>
 
-            <div class="petitebarre"></div>
+            <div class="dumobile">
+                <ul class="gap">
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Martine L.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
+
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
+
+                    <li class="detailvalidite">
+                        <p class="visa">Visa</p>
+                        <span><p>Valide</p></span>
+                    </li>
+
+                </ul>
+
+                <div class="petitebarre"></div>
+            </div>
+
+<!--            <ul>-->
+<!--                <li><p class="date">2022/04/01</p></li>-->
+
+<!--                <li><p class="valide">Visa</p></li>-->
+
+<!--                <li class="detailcontributeur">-->
+<!--                    <p class="nomcontributeur">Martine L.</p>-->
+<!--                    <ul class="contributeuricons">-->
+<!--                       <li><img src="assets/icons/personicon.svg" alt="person"></li>-->
+<!--                       <li><img src="assets/icons/message.svg" alt="message"></li>-->
+<!--                   </ul>-->
+<!--                </li>-->
+
+<!--                <li class="detailmontant">-->
+<!--                    <p class="montant">50$</p>-->
+<!--                    <p class="nom">Contrepartie 1</p>-->
+<!--                </li>-->
+
+<!--                <li><span><p class="valide">Valide</p></span></li>-->
+
+<!--                <li class="detailvalidite">-->
+<!--                    <p >Visa</p>-->
+<!--                   <span><p>Valide</p></span>-->
+<!--                </li>-->
+
+<!--            </ul>-->
+
+<!--            <div class="petitebarre"></div>-->
 
         </div>
 
         <div class="contenutableau2" >
-            <ul>
-                <li><p class="date">2022/04/01</p></li>
 
-                <li><p class="valide">Visa</p></li>
+            <div class="desktop">
+                <ul>
+                    <li><p class="date">2022/04/01</p></li>
 
-                <li class="detailcontributeur">
-                    <p href="#" class="nomcontributeur">Laurent M.</p>
-                    <ul class="contributeuricons">
-                        <li><a href="#"><img src="assets/icons/personicon.svg" alt="person"></a></li>
-                        <li><a href="#"><img src="assets/icons/message.svg" alt="message"></a></li>
-                    </ul>
-                </li>
+                    <li><p class="valide">Visa</p></li>
 
-                <li class="detailmontant">
-                    <p href="#" class="montant">50$</p>
-                    <p href="#" class="nom">Contrepartie 1</p>
-                </li>
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Laurent M.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
-                <li><span><p class="valide">Echoue</p></span></li>
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
 
-                <li class="detailvalidite">
-                    <p href="#">Visa</p>
-                    <span><p href="#">Echoue</p></span>
-                </li>
+                    <li><span><p class="valide">Echoue</p></span></li>
 
-            </ul>
+                </ul>
 
-            <div class="petitebarre"></div>
+                <div class="petitebarre"></div>
+            </div>
+
+            <div class="dumobile">
+                <ul class="gap">
+
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Laurent M.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
+
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
+
+                    <li class="detailvalidite">
+                        <p class="visa">Visa</p>
+                        <span><p>Echoue</p></span>
+                    </li>
+
+                </ul>
+
+                <div class="petitebarre"></div>
+            </div>
+<!--            <ul>-->
+<!--                <li><p class="date">2022/04/01</p></li>-->
+
+<!--                <li><p class="valide">Visa</p></li>-->
+
+<!--                <li class="detailcontributeur">-->
+<!--                    <p class="nomcontributeur">Laurent M.</p>-->
+<!--                    <ul class="contributeuricons">-->
+<!--                        <li><img src="assets/icons/personicon.svg" alt="person"></li>-->
+<!--                        <li><img src="assets/icons/message.svg" alt="message"></li>-->
+<!--                    </ul>-->
+<!--                </li>-->
+
+<!--                <li class="detailmontant">-->
+<!--                    <p class="montant">50$</p>-->
+<!--                    <p class="nom">Contrepartie 1</p>-->
+<!--                </li>-->
+
+<!--                <li><span><p class="valide">Echoue</p></span></li>-->
+
+<!--                <li class="detailvalidite">-->
+<!--                    <p >Visa</p>-->
+<!--                    <span><p>Echoue</p></span>-->
+<!--                </li>-->
+
+<!--            </ul>-->
+
+<!--            <div class="petitebarre"></div>-->
 
         </div>
 
         <div class="contenutableau3" >
-            <ul>
-                <li><p class="date">2022/04/01</p></li>
 
-                <li><p class="valide">Visa</p></li>
+            <div class="desktop">
+                <ul>
+                    <li><p class="date">2022/04/01</p></li>
 
-                <li class="detailcontributeur">
-                    <p href="#" class="nomcontributeur">Lizabe N.</p>
-                    <ul class="contributeuricons">
-                        <li><a href="#"><img src="assets/icons/personicon.svg" alt="person"></a></li>
-                        <li><a href="#"><img src="assets/icons/message.svg" alt="message"></a></li>
-                    </ul>
-                </li>
+                    <li><p class="valide">Visa</p></li>
 
-                <li class="detailmontant">
-                    <p href="#" class="montant">250$</p>
-                    <p href="#" class="nom">Contrepartie 3</p>
-                </li>
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Lizabe N.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
-                <li><span><p class="valide">En cours</p></span></li>
+                    <li class="detailmontant">
+                        <p class="montant">250$</p>
+                        <p class="nom">Contrepartie 3</p>
+                    </li>
 
-                <li class="detailvalidite">
-                    <p>Visa</p>
-                    <span><p href="#">En cours</p></span>
-                </li>
+                    <li><span><p class="valide">En cours</p></span></li>
 
-            </ul>
 
-            <div class="petitebarre"></div>
+                </ul>
+
+                <div class="petitebarre"></div>
+            </div>
+
+            <div class="dumobile">
+                <ul class="gap">
+
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Lizabe N.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
+
+                    <li class="detailmontant">
+                        <p class="montant">250$</p>
+                        <p class="nom">Contrepartie 3</p>
+                    </li>
+
+                    <li class="detailvalidite">
+                        <p class="visa">Visa</p>
+                        <span><p>En cours</p></span>
+                    </li>
+
+                </ul>
+
+                <div class="petitebarre"></div>
+            </div>
+<!--            <ul>-->
+<!--                <li><p class="date">2022/04/01</p></li>-->
+
+<!--                <li><p class="valide">Visa</p></li>-->
+
+<!--                <li class="detailcontributeur">-->
+<!--                    <p class="nomcontributeur">Lizabe N.</p>-->
+<!--                    <ul class="contributeuricons">-->
+<!--                        <li><img src="assets/icons/personicon.svg" alt="person"></li>-->
+<!--                        <li><img src="assets/icons/message.svg" alt="message"></li>-->
+<!--                    </ul>-->
+<!--                </li>-->
+
+<!--                <li class="detailmontant">-->
+<!--                    <p class="montant">250$</p>-->
+<!--                    <p class="nom">Contrepartie 3</p>-->
+<!--                </li>-->
+
+<!--                <li><span><p class="valide">En cours</p></span></li>-->
+
+<!--                <li class="detailvalidite">-->
+<!--                    <p>Visa</p>-->
+<!--                    <span><p>En cours</p></span>-->
+<!--                </li>-->
+
+<!--            </ul>-->
+
+<!--            <div class="petitebarre"></div>-->
 
         </div>
 
 <!--        2-->
         <div class="contenutableau2" >
-            <ul>
-                <li><p class="date">2022/04/01</p></li>
+            <div class="desktop">
+                <ul>
+                    <li><p class="date">2022/04/01</p></li>
 
-                <li><p class="valide">Visa</p></li>
+                    <li><p class="valide">Visa</p></li>
 
-                <li class="detailcontributeur">
-                    <p href="#" class="nomcontributeur">Laurent M.</p>
-                    <ul class="contributeuricons">
-                        <li><a href="#"><img src="assets/icons/personicon.svg" alt="person"></a></li>
-                        <li><a href="#"><img src="assets/icons/message.svg" alt="message"></a></li>
-                    </ul>
-                </li>
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Laurent M.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
-                <li class="detailmontant">
-                    <p href="#" class="montant">50$</p>
-                    <p href="#" class="nom">Contrepartie 1</p>
-                </li>
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
 
-                <li><span><p class="valide">Echoue</p></span></li>
+                    <li><span><p class="valide">Echoue</p></span></li>
 
-                <li class="detailvalidite">
-                    <p href="#">Visa</p>
-                    <span><p href="#">Echoue</p></span>
-                </li>
+                </ul>
 
+                <div class="petitebarre"></div>
+            </div>
 
-            </ul>
+            <div class="dumobile">
+                <ul class="gap">
 
-            <div class="petitebarre"></div>
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Laurent M.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
+
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
+
+                    <li class="detailvalidite">
+                        <p class="visa">Visa</p>
+                        <span><p>Echoue</p></span>
+                    </li>
+
+                </ul>
+
+                <div class="petitebarre"></div>
+            </div>
 
         </div>
 
         <div class="contenutableau1" >
-            <ul>
-                <li><p class="date">2022/04/01</p></li>
+            <div class="desktop">
+                <ul>
+                    <li><p class="date">2022/04/01</p></li>
 
-                <li><p class="valide">Visa</p></li>
+                    <li><p class="valide">Visa</p></li>
 
-                <li class="detailcontributeur">
-                    <p href="#" class="nomcontributeur">Martine L.</p>
-                    <ul class="contributeuricons">
-                        <li><a href="#"><img src="assets/icons/personicon.svg" alt="person"></a></li>
-                        <li><a href="#"><img src="assets/icons/message.svg" alt="message"></a></li>
-                    </ul>
-                </li>
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Martine L.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
-                <li class="detailmontant">
-                    <p href="#" class="montant">50$</p>
-                    <p href="#" class="nom">Contrepartie 1</p>
-                </li>
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
 
-                <li><span><p class="valide">Valide</p></span></li>
+                    <li><span><p class="valide">Valide</p></span></li>
 
-                <li class="detailvalidite">
-                    <p href="#">Visa</p>
-                    <span><p href="#">Valide</p></span>
-                </li>
+                </ul>
 
-            </ul>
+                <div class="petitebarre"></div>
+            </div>
 
-            <div class="petitebarre"></div>
+            <div class="dumobile">
+                <ul class="gap">
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Martine L.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
+
+                    <li class="detailvalidite">
+                        <p class="visa">Visa</p>
+                        <span><p>Valide</p></span>
+                    </li>
+
+                </ul>
+
+                <div class="petitebarre"></div>
+            </div>
         </div>
 
         <div class="contenutableau3" >
-            <ul>
-                <li><p class="date">2022/04/01</p></li>
+            <div class="desktop">
+                <ul>
+                    <li><p class="date">2022/04/01</p></li>
 
-                <li><p class="valide">Visa</p></li>
+                    <li><p class="valide">Visa</p></li>
 
-                <li class="detailcontributeur">
-                    <p href="#" class="nomcontributeur">Lizabe N.</p>
-                    <ul class="contributeuricons">
-                        <li><a href="#"><img src="assets/icons/personicon.svg" alt="person"></a></li>
-                        <li><a href="#"><img src="assets/icons/message.svg" alt="message"></a></li>
-                    </ul>
-                </li>
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Lizabe N.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
-                <li class="detailmontant">
-                    <p href="#" class="montant">250$</p>
-                    <p href="#" class="nom">Contrepartie 3</p>
-                </li>
+                    <li class="detailmontant">
+                        <p class="montant">250$</p>
+                        <p class="nom">Contrepartie 3</p>
+                    </li>
 
-                <li><span><p class="valide">En cours</p></span></li>
+                    <li><span><p class="valide">En cours</p></span></li>
 
-                <li class="detailvalidite">
-                    <p>Visa</p>
-                    <span><p href="#">En cours</p></span>
-                </li>
 
-            </ul>
+                </ul>
 
-            <div class="petitebarre"></div>
+                <div class="petitebarre"></div>
+            </div>
 
+            <div class="dumobile">
+                <ul class="gap">
+
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Lizabe N.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
+
+                    <li class="detailmontant">
+                        <p class="montant">250$</p>
+                        <p class="nom">Contrepartie 3</p>
+                    </li>
+
+                    <li class="detailvalidite">
+                        <p class="visa">Visa</p>
+                        <span><p>En cours</p></span>
+                    </li>
+
+                </ul>
+
+                <div class="petitebarre"></div>
+            </div>
         </div>
 
 <!--        3-->
         <div class="contenutableau1" >
-            <ul>
-                <li><p class="date">2022/04/01</p></li>
+            <div class="desktop">
+                <ul>
+                    <li><p class="date">2022/04/01</p></li>
 
-                <li><p class="valide">Visa</p></li>
+                    <li><p class="valide">Visa</p></li>
 
-                <li class="detailcontributeur">
-                    <p href="#" class="nomcontributeur">Martine L.</p>
-                    <ul class="contributeuricons">
-                        <li><a href="#"><img src="assets/icons/personicon.svg" alt="person"></a></li>
-                        <li><a href="#"><img src="assets/icons/message.svg" alt="message"></a></li>
-                    </ul>
-                </li>
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Martine L.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
-                <li class="detailmontant">
-                    <p href="#" class="montant">50$</p>
-                    <p href="#" class="nom">Contrepartie 1</p>
-                </li>
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
 
-                <li><span><p class="valide">Valide</p></span></li>
+                    <li><span><p class="valide">Valide</p></span></li>
 
-                <li class="detailvalidite">
-                    <p href="#">Visa</p>
-                    <span><p href="#">Valide</p></span>
-                </li>
+                </ul>
 
-            </ul>
+                <div class="petitebarre"></div>
+            </div>
 
-            <div class="petitebarre"></div>
+            <div class="dumobile">
+                <ul class="gap">
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Martine L.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
+
+                    <li class="detailvalidite">
+                        <p class="visa">Visa</p>
+                        <span><p>Valide</p></span>
+                    </li>
+
+                </ul>
+
+                <div class="petitebarre"></div>
+            </div>
         </div>
 
         <div class="contenutableau2" >
-            <ul>
-                <li><p class="date">2022/04/01</p></li>
+            <div class="desktop">
+                <ul>
+                    <li><p class="date">2022/04/01</p></li>
 
-                <li><p class="valide">Visa</p></li>
+                    <li><p class="valide">Visa</p></li>
 
-                <li class="detailcontributeur">
-                    <p href="#" class="nomcontributeur">Laurent M.</p>
-                    <ul class="contributeuricons">
-                        <li><a href="#"><img src="assets/icons/personicon.svg" alt="person"></a></li>
-                        <li><a href="#"><img src="assets/icons/message.svg" alt="message"></a></li>
-                    </ul>
-                </li>
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Laurent M.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
-                <li class="detailmontant">
-                    <p href="#" class="montant">50$</p>
-                    <p href="#" class="nom">Contrepartie 1</p>
-                </li>
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
 
-                <li><span><p class="valide">Echoue</p></span></li>
+                    <li><span><p class="valide">Echoue</p></span></li>
 
-                <li class="detailvalidite">
-                    <p href="#">Visa</p>
-                    <span><p href="#">Echoue</p></span>
-                </li>
-            </ul>
+                </ul>
 
-            <div class="petitebarre"></div>
+                <div class="petitebarre"></div>
+            </div>
+
+            <div class="dumobile">
+                <ul class="gap">
+
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Laurent M.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
+
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
+
+                    <li class="detailvalidite">
+                        <p class="visa">Visa</p>
+                        <span><p>Echoue</p></span>
+                    </li>
+
+                </ul>
+
+                <div class="petitebarre"></div>
+            </div>
 
         </div>
 
         <div class="contenutableau3" >
-            <ul>
-                <li><p class="date">2022/04/01</p></li>
+            <div class="desktop">
+                <ul>
+                    <li><p class="date">2022/04/01</p></li>
 
-                <li><p class="valide">Visa</p></li>
+                    <li><p class="valide">Visa</p></li>
 
-                <li class="detailcontributeur">
-                    <p href="#" class="nomcontributeur">Lizabe N.</p>
-                    <ul class="contributeuricons">
-                        <li><a href="#"><img src="assets/icons/personicon.svg" alt="person"></a></li>
-                        <li><a href="#"><img src="assets/icons/message.svg" alt="message"></a></li>
-                    </ul>
-                </li>
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Lizabe N.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
-                <li class="detailmontant">
-                    <p href="#" class="montant">250$</p>
-                    <p href="#" class="nom">Contrepartie 3</p>
-                </li>
+                    <li class="detailmontant">
+                        <p class="montant">250$</p>
+                        <p class="nom">Contrepartie 3</p>
+                    </li>
 
-                <li><span><p class="valide">En cours</p></span></li>
+                    <li><span><p class="valide">En cours</p></span></li>
 
-                <li class="detailvalidite">
-                    <p>Visa</p>
-                    <span><p href="#">En cours</p></span>
-                </li>
 
-            </ul>
+                </ul>
 
-            <div class="petitebarre"></div>
+                <div class="petitebarre"></div>
+            </div>
+
+            <div class="dumobile">
+                <ul class="gap">
+
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Lizabe N.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
+
+                    <li class="detailmontant">
+                        <p class="montant">250$</p>
+                        <p class="nom">Contrepartie 3</p>
+                    </li>
+
+                    <li class="detailvalidite">
+                        <p class="visa">Visa</p>
+                        <span><p>En cours</p></span>
+                    </li>
+
+                </ul>
+
+                <div class="petitebarre"></div>
+            </div>
 
         </div>
 
 <!--        4-->
         <div class="contenutableau2" >
-            <ul>
-                <li><p class="date">2022/04/01</p></li>
+            <div class="desktop">
+                <ul>
+                    <li><p class="date">2022/04/01</p></li>
 
-                <li><p class="valide">Visa</p></li>
+                    <li><p class="valide">Visa</p></li>
 
-                <li class="detailcontributeur">
-                    <p href="#" class="nomcontributeur">Laurent M.</p>
-                    <ul class="contributeuricons">
-                        <li><a href="#"><img src="assets/icons/personicon.svg" alt="person"></a></li>
-                        <li><a href="#"><img src="assets/icons/message.svg" alt="message"></a></li>
-                    </ul>
-                </li>
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Laurent M.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
 
-                <li class="detailmontant">
-                    <p href="#" class="montant">50$</p>
-                    <p href="#" class="nom">Contrepartie 1</p>
-                </li>
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
 
-                <li><span><p class="valide">Echoue</p></span></li>
+                    <li><span><p class="valide">Echoue</p></span></li>
 
-                <li class="detailvalidite">
-                    <p href="#">Visa</p>
-                    <span><p href="#">Echoue</p></span>
-                </li>
+                </ul>
 
-            </ul>
+                <div class="petitebarre"></div>
+            </div>
 
-            <div class="petitebarre"></div>
+            <div class="dumobile">
+                <ul class="gap">
+
+                    <li class="detailcontributeur">
+                        <p class="nomcontributeur">Laurent M.</p>
+                        <ul class="contributeuricons">
+                            <li><img src="assets/icons/personicon.svg" alt="person"></li>
+                            <li><img src="assets/icons/message.svg" alt="message"></li>
+                        </ul>
+                    </li>
+
+                    <li class="detailmontant">
+                        <p class="montant">50$</p>
+                        <p class="nom">Contrepartie 1</p>
+                    </li>
+
+                    <li class="detailvalidite">
+                        <p class="visa">Visa</p>
+                        <span><p>Echoue</p></span>
+                    </li>
+
+                </ul>
+
+                <div class="petitebarre"></div>
+            </div>
 
         </div>
     </div>
