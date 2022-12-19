@@ -1,0 +1,32 @@
+.footer{
+    background-color: var(--color-suivie);
+    .wrapper{
+        background-color: var(--color-suivie);
+    }
+    .footerselection{
+
+        ul{
+            list-style: none;
+            display: inline-flex;
+            gap: 500px;
+            color: black;
+
+            p{
+                font-weight: bold;
+            }
+        }
+        span{
+            background-color: white;
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile){
+    .export{
+        display: none;
+    }
+    .margin{
+        margin-left: 370px;
+    }
+}
