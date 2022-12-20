@@ -2,7 +2,6 @@ header{
     background-color: var(--color-defond);
     ul{
         list-style: none;
-      //  gap: px;
     }
 
     .wrapper{
@@ -24,19 +23,6 @@ header{
         }
     }
 
-
-    //.menu-hamberger {
-    //    span {
-    //        width: 20px;
-    //        height: 2px;
-    //        background-color: black;
-    //        display: block;
-    //    }
-    //
-    //    display: none;
-    //    gap: 5px;
-    //}
-
     .mobile{
         display: none;
         grid-template-columns: repeat(2, 1fr);
@@ -49,34 +35,6 @@ header{
         }
     }
 
-    //.mobile{
-    //    display: none;
-    //    grid-template-columns: repeat(2, 1fr);
-    //    gap: 250px;
-    //    list-style: none;
-    //
-    //    .menu-hamberger {
-    //        span {
-    //            width: 20px;
-    //            height: 2px;
-    //            background-color: black;
-    //            display: block;
-    //        }
-    //        display: grid;
-    //        gap: 2px;
-    //    }
-    //}
-    //
-    //.menu-hamberger {
-    //    span {
-    //        width: 20px;
-    //        height: 2px;
-    //        background-color: black;
-    //        display: block;
-    //    }
-    //    display: none;
-    //    gap: 5px;
-    //}
 }
 
 @media screen and (max-width: $breakpoint-mobile){
@@ -97,28 +55,9 @@ header{
                 margin-left: 50px;
             }
 
-            //.menu-hamberger {
-            //    span {
-            //        width: 20px;
-            //        height: 2px;
-            //        background-color: black;
-            //        display: block;
-            //    }
-            //    display: grid;
-            //    gap: 2px;
-            //}
+
         }
 
     }
-
-
-    //.menu-hamburger{
-    //    padding-left: 0px;
-    //    ul{
-    //        display: flex;
-    //        justify-content: space-between;
-    //        gap: 110px;
-    //    }
-    //}
 
 }

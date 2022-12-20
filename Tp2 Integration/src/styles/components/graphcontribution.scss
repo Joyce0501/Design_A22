@@ -3,15 +3,11 @@
     color: var(--color-black-text);
 
     .cardgraphcontribution{
-        //    align-items: center;
         background-color: white;
         margin-top: 0px;
-        //     text-align: center;
         display: flex;
         flex-direction: column;
 
-        //    display: grid;
-        //    grid-template-columns:  3fr 1fr;
         gap: 50px;
         justify-content: center;
 
@@ -35,9 +31,7 @@
             top: 1%;
             right: 1%;
         }
-        //.dumobile{
-        //    display: inline;
-        //}
+
     }
 
     .cardgraphcontributionMobile{
@@ -59,11 +53,6 @@
     }
 
     @media screen and (max-width: $breakpoint-mobile) {
-        //.dumobile{
-        //    display: inline-flex;
-        //}
-        //.desktop{
-        //    display: none;
-        //}
+
     }
 }
