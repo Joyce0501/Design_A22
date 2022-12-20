@@ -14,7 +14,7 @@
         ul{
             list-style: none;
             display: inline-flex;
-            gap: 160px;
+            gap: 155px;
             color: black;
         }
     }
@@ -117,6 +117,10 @@
            gap: 10px;
            padding-left: 0px;
         }
+    }
+
+    .gras{
+        font-weight: bold;
     }
 }
 
